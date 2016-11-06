@@ -8,12 +8,15 @@
 
 ## 安装方法
 
-手动安装，将Classes中的文件拖入工程杰克
+手动安装，将Classes中的文件拖入工程即可
 
 ## 使用方法
 
 
 ```
+// 先引用指示器view
+#import "IndicatorView.h"
+
 // 声明指示器对象
     IndicatorView * idc = [[IndicatorView alloc] init];
 
